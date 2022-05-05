@@ -1,18 +1,20 @@
 {
-    "name": "lehk/weather-package",
-    "description": "My first package",
+    "name": "lehk/open-weather-client",
+    "description": "My weather package",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Lehk\\WeatherPackage\\": "src/"
+            "Lehk\\OpenWeatherClient\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "kimhuanle",
-            "email": "kimhuanle@gmail.com"
+            "name": "Huan Le",
+            "email": "lehk@miamioh.edu"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
 }
