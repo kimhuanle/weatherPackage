@@ -1,0 +1,18 @@
+{
+    "name": "lehk/weather-package",
+    "description": "My first package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lehk\\WeatherPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kimhuanle",
+            "email": "kimhuanle@gmail.com"
+        }
+    ],
+    "require": {}
+}
